@@ -1,0 +1,5 @@
+[
+    { "id": "R-001", "tipo": "Router", "marca": "Cisco", "modelo": "Catalyst 8300", "precio": 1250.00 },
+    { "id": "S-002", "tipo": "Switch", "marca": "HP", "modelo": "Aruba 2930F", "precio": 850.50 },
+    { "id": "SRV-003", "tipo": "Servidor", "marca": "Dell", "modelo": "PowerEdge R750", "precio": 3400.00 }
+]
