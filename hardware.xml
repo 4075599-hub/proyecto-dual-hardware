@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<inventario>
+    <dispositivo>
+        <id>R-001</id>
+        <tipo>Router</tipo>
+        <marca>Cisco</marca>
+        <modelo>Catalyst 8300</modelo>
+        <precio>1250.00</precio>
+    </dispositivo>
+    <dispositivo>
+        <id>S-002</id>
+        <tipo>Switch</tipo>
+        <marca>HP</marca>
+        <modelo>Aruba 2930F</modelo>
+        <precio>850.50</precio>
+    </dispositivo>
+    <dispositivo>
+        <id>SRV-003</id>
+        <tipo>Servidor</tipo>
+        <marca>Dell</marca>
+        <modelo>PowerEdge R750</modelo>
+        <precio>3400.00</precio>
+    </dispositivo>
+</inventario>
