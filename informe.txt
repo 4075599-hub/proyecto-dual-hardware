@@ -1,0 +1,11 @@
+1. Sincronización: 
+Hemos tenido que fusionar las ramas (rama-xml y rama-json) en la rama principal (main) utilizando Pull Requests en GitHub. Luego, en la terminal, cambiamos a la rama principal con "git checkout main" y descargamos los cambios con "git pull origin main".
+
+2. Detección de errores: 
+Si se borra una coma en el JSON, la estructura se rompe, el proceso de "parseo" falla porque JavaScript no puede entenderlo y no se dibuja la tabla. Si hay un error en el XSL, el navegador no puede hacer la transformación estática y muestra el XML sin formato o da un error de lectura.
+
+3. Comparativa: 
+El método JSON + JS es mucho más fácil de mantener y eficiente para 10.000 dispositivos. XML es muy "verboso" (repite muchas etiquetas) y pesado. JSON va directo al grano, ahorra megabytes de transferencia, hace que la web cargue más rápido y su análisis en memoria es casi instantáneo.
+
+4. Control de versiones: 
+Si ambos editamos el index.html a la vez en la misma línea y lo intentamos subir, se produce un "Conflicto de Git" (Merge Conflict). Git no sabe qué versión es la buena y nos obliga a abrir el archivo para decidir con qué código nos quedamos antes de poder hacer la fusión.
